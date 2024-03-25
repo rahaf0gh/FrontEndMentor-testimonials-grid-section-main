@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.box{
+    border-radius: 12px;
+}
+section{
+    width: 85%;
+    margin: 15px auto;
+    height: 100%;
+
+    display: flex;
+    gap: 20px;
+}
+
+
+.left-side{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-top{
+    display: flex;
+    gap: 20px;
+}
+.change-BG {
+    background: url(images/bg-pattern-quotation.svg);
+    background-repeat:no-repeat;
+    background-position: 80% 0%;
+    background-size: 100px;  
+}
+.left-1{
+    background-color: hsl(263, 55%, 52%);
+    width: 77%;
+    padding: 24px;
+
+    display:flex;
+    flex-direction: column;
+}
+.left-1 .personInf{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.left-1 .personInf .img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.left-1 .personInf .PersonName{
+    color: hsl(0, 0%, 100%);
+}
+.left-1 .personInf .secondaryTitle{
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+}
+.left-1 header{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin:  19px 0;
+    font-weight: 600;
+}
+.left-1 p{
+    color: hsl(0, 0%, 81%);
+    font-size: 14px;
+}
+.left-2{
+    width: 34%;
+    padding: 25px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+/* ----------  */
+.right-side{
+    width: 25%;
+}
+.right-side-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 28px;
+}
+.right-side header{
+    color: hsl(219, 29%, 14%);
+    margin: 25px 0;
+}
+.right-side p{
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+}
